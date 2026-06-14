@@ -5,15 +5,9 @@ from modules.routine import routine
 
 # Main
 def main() -> None:
-    main_titulo: int = titulo("An CLI App", "What u wanna do?\nCredits to bcsarah@github.com", ["To-Do", "Routine", "Options", "Exit"])
-    match main_titulo:
-        case 1:
-            todo()
-        case 2:
-            routine()
-        case 3:
-            options()
-        case 4:
-            pass
+    main_titulo = titulo(
+        "An CLI App",
+        "What u wanna do?\nCredits to bcsarah@github.com",
+        {"To-Do": todo, "Routine": routine, "Options": options})
 
 main()
