@@ -1,3 +1,3 @@
 # Optiones
-def options() -> None:
+def mostrar_opcoes() -> None:
     pass

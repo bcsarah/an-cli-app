@@ -1,3 +1,2 @@
-# An (everything) CLI App
-
+# DoPy
 **Under development.**
